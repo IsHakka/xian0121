@@ -1,0 +1,40 @@
+.Layout {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 40px; 
+    line-height: 1;
+
+    .Introduction {
+        font-size: 1.2rem;
+        color: rgb(187, 189, 208);
+        margin-bottom: 1rem;
+    }
+
+    .Overview {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+
+    .Box {
+        width: 100%;
+        display: flex;
+
+        .List {
+            color: rgb(187, 189, 208);
+            line-height: 1.8;
+        }
+    }
+    .Content{
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap:2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .Content{
+        justify-content: center;
+    }
+} 

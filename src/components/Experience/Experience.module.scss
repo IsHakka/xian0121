@@ -1,0 +1,22 @@
+.Layout {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 40px; 
+}
+
+.Introduction {
+    font-size: 1.2rem;
+    color: rgb(187, 189, 208);
+}
+
+.Overview {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.ExperienceList {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}

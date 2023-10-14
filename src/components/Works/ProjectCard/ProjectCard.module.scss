@@ -1,0 +1,67 @@
+
+    .CardContainer {
+        background-color: rgb(29, 24, 54);
+        padding: 1rem;
+        border-radius: 10px;
+        width: 360px;
+    
+    
+        .CardBox {
+            position: relative;
+            height: 230px;
+    
+            .Image {
+                border-radius: 10px;
+                width: 100%;
+                height: 100%;
+            }
+    
+            .GitHubIcon {
+                position: absolute;
+                top: .4rem;
+                right: .4rem;
+                display: flex;
+                justify-content: flex-end;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                overflow: hidden;
+                
+                .Icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: linear-gradient(91.7deg, rgb(22, 12, 33) -4.3%, rgb(40, 33, 49) 101.8%);
+                    cursor: pointer;
+                    .GitHub{
+                        text-align: center;
+                        width: 50%;
+                    }
+                }
+            }
+    
+            .GitHubIcon:hover {
+                cursor: pointer;
+            }
+        }
+        .Des{
+            margin-top: 2rem;
+            h3{
+                margin-bottom: 1rem;
+            }
+            p{
+                line-height: 1.4;
+                color: rgb(187, 189, 208);
+            }
+        }
+        .TagGroup{
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: .4rem;
+            .Tag{
+                font-size: 1rem;
+            }
+        }
+    }
+

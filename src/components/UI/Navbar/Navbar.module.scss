@@ -1,0 +1,78 @@
+.Navbar {
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    background-color: black;
+
+    .Header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1280px;
+        margin: 0 auto;
+        .HomeLink {
+            display: flex;
+            align-items: center;
+            .Logo {
+                width: 4rem;
+                height: 4rem;
+                margin-right: 8px;
+            }
+
+            .WebTitle {
+                font-weight: 800;
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+            }
+        }
+
+        .Menu {
+            display: flex;
+            gap: 2rem;
+
+            .ActiveLink {
+                color: white;
+            }
+
+            .DefaultLink {
+                color: gray;
+            }
+
+            .DefaultLink:hover,
+            .ActiveLink:hover {
+                opacity: .8;
+            }
+
+            a {
+                font-size: 1.3rem;
+            }
+        }
+        .SideMenu{
+            display: none;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .Navbar {
+        .Header {
+            .Menu {
+                display: none;
+            }
+            .SideMenu{
+                display: block;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .HamburgerBox{
+                    width: 2rem;
+                }
+                .HamburgerBox:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

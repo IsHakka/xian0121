@@ -1,0 +1,37 @@
+.CardGroup {
+    width: 40%;
+    .CardItems {
+        width: 100%;
+        border: 2px solid rgb(191, 138, 244);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+        border-radius: 20px;
+        overflow: hidden;
+        
+        .Type {
+            background-color: rgb(30, 30, 67);
+            padding: 1rem;
+            min-height: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .Img{
+                width: 4rem;
+                height: 4rem;
+                margin-bottom: 1rem;
+            }
+            .Title{
+                font-weight: 800;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .CardGroup{
+        width: 100%;
+    }
+}

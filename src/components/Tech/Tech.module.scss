@@ -1,0 +1,13 @@
+.BallContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    .Ball {
+        width: 8rem;
+        height: 8rem;
+    }
+}
