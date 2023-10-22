@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className={classes.Navbar}>
       <div className={classes.Header}>
         <Link to='/' className={classes.HomeLink} onClick={() => { setActive(''); window.scrollTo(0, 0); }}>
-          <img src={logo} alt="logo" className={classes.Logo} />
+          <img src={logo}  alt="logo" className={classes.Logo} />
           <div>
             <p className={classes.WebTitle}>Hakka</p>
             <p>| Xian's Portfolio</p>
