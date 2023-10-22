@@ -17,7 +17,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className={classes.Logo} />
           <div>
             <p className={classes.WebTitle}>Hakka</p>
-            <p>| Xian's Profilo</p>
+            <p>| Xian's Portfolio</p>
           </div>
         </Link>
         <ul className={classes.Menu}>
