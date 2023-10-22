@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { menu, close, logo } from '../../../assets';
-import { Link, NavLink } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import classes from './Navbar.module.scss'
 import { navLinks } from '../../../constants/index'
 
