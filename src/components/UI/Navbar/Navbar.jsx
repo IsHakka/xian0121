@@ -7,7 +7,7 @@ import { navLinks } from '../../../constants/index'
 const Navbar = () => { 
   // menu狀態
   const [active, setActive] = useState('');
-  // 手機版選單開關
+  // 手機版選單展開
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -34,7 +34,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div className={classes.SideMenu}>
-                <img src={toggle ? close : menu} onClick={()=>{setToggle(!toggle)}} alt="menu" className={classes.HamburgerBox}/>
+                <img src={toggle ? close : menu} onClick={ ()=>{setToggle(!toggle)}} alt="menu" className={classes.HamburgerBox}/>
         </div>
       </div>
     </nav>
